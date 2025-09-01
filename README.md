@@ -1,18 +1,31 @@
-<h1>CRUD en Java(puro) com Design Patterns-Builder</h1>
+# CRUD em Java Puro com Design Pattern Builder
 
-Este projeto implementa um CRUD em Java puro com foco no padrão de projeto Builder.
-O Builder permite evitar múltiplos construtores diferentes, tornando o código mais legível, organizado e facilitando a criação de objetos complexos de forma segura e consistente.
+Este projeto é um **CRUD em Java puro** que utiliza o **padrão de projeto Builder**.  
+O Builder ajuda a evitar múltiplos construtores, deixando o código **mais legível, organizado** e permitindo criar objetos complexos de forma **segura e consistente**.
 
-<h1>Tecnológias Utilizadas</h1>
+---
 
-Java 17+
-Git
-VsCode
+## 🔧 Tecnologias Utilizadas
 
-<h1>Funcionalidades do CRUD</h1>
-1-Cadastrar pessoa
-2-Buscar pessoa pelo ID
-3-Listar todas as pessoas cadastradas
-4-Sair do sistema
+- **Java 17+**
+- **Git**
+- **VS Code**
 
+---
+
+## ⚙️ Funcionalidades
+
+1. Cadastrar uma pessoa  
+2. Buscar pessoa pelo ID  
+3. Listar todas as pessoas cadastradas  
+4. Sair do sistema
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
