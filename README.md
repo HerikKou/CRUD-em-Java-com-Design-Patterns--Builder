@@ -1,6 +1,7 @@
 <h1>CRUD en Java(puro) com Design Patterns-Builder</h1>
 
-Este CRUD com java tem como objetivo entender os conceitos do tipo criacional Builder. Assim evitando varios construtores diferentes , deixando o código mais legivel e organizado e também facilita criar objetos complexos de forma segura e consistente
+Este projeto implementa um CRUD em Java puro com foco no padrão de projeto Builder.
+O Builder permite evitar múltiplos construtores diferentes, tornando o código mais legível, organizado e facilitando a criação de objetos complexos de forma segura e consistente.
 
 <h1>Tecnológias Utilizadas</h1>
 
@@ -13,4 +14,5 @@ VsCode
 2-Buscar pessoa pelo ID
 3-Listar todas as pessoas cadastradas
 4-Sair do sistema
+
 
