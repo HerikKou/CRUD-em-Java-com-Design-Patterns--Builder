@@ -1,4 +1,4 @@
-name: Java CI/CD 
+name: Java CI/CD
 
 on:
   push:
@@ -20,8 +20,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Compilar
-        run: javac -d out src/Main.java
+      - name: Compilar todos os arquivos Java
+        run: javac -d out $(find src -name "*.java")
 
-      - name: Rodar Teste Automático
-        run: java -cp out src.Main test
+      - name: Rodar teste
+        run: java -cp out Main test
