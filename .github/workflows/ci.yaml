@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Compilar
-        run: javac -d out src/Builder.java
+        run: javac -d out src/Main.java
 
       - name: Rodar Teste Automático
         run: java -cp out src.Main test

@@ -35,7 +35,7 @@ public static class Builder{
     public Pessoa build(){ return new Pessoa(this);}
 }}
 
-class Main{
+public class Main{
     static List<Pessoa> listaDePessoa = new ArrayList<>();
         public static void main(String[] args) {
             if(args.length > 0 && args[0].equals("test")){
@@ -79,7 +79,7 @@ class Main{
             int idade = sc.nextInt();
             Pessoa pessoa = new Pessoa.Builder().id(id).nome(nome).idade(idade).build();
             listaDePessoa.add(pessoa);
-            System.out.println("Pessoa cadastrada com Sucesso!");
+            System.out.println("Pessoa cadastrada com Sucesso!!");
             System.out.println("=================================");
     }
     public static void buscar(Scanner sc){
